@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@gmail.com",
+      "password": "123",
+      "name": "Yoo Jin"
+    },
+    {
+      "id": 2,
+      "name": "thien nguyen",
+      "email": "nguyenthanhthien0609@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "name": "vuong vo",
+      "email": "vuong123@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "title": "Da Nang - Ba Na - Hoi An",
+      "price": "$400.00",
+      "imgUrl": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&q=80&w=600",
+      "date": "Jan 30, 2026",
+      "duration": "3 days",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Thailand Adventure",
+      "price": "$600.00",
+      "imgUrl": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&q=80&w=400",
+      "date": "Feb 10, 2026",
+      "duration": "5 days",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Melbourne - Sydney",
+      "price": "$600.00",
+      "imgUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&q=80&w=600",
+      "date": "Mar 15, 2026",
+      "duration": "7 days",
+      "featured": true
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "name": "Tuan Tran",
+      "location": "Danang, Vietnam",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "name": "Emmy",
+      "location": "Hanoi, Vietnam",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Linh Hana",
+      "location": "Danang, Vietnam",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.7
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "title": "2 Hour Bicycle Tour...",
+      "guideName": "Tuan Tran",
+      "bgImg": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=300",
+      "avatarImg": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=100"
+    },
+    {
+      "id": 2,
+      "title": "1 day at Bana Hill",
+      "guideName": "Linh Hana",
+      "bgImg": "https://images.unsplash.com/photo-1583417311718-ee2f659cb51e?auto=format&fit=crop&q=80&w=300",
+      "avatarImg": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=100"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "Welcome to Fellow4U!",
+      "content": "Start exploring the best tours in Da Nang.",
+      "date": "Feb 5, 2026"
+    },
+    {
+      "id": 2,
+      "title": "Booking Confirmed",
+      "content": "Your trip to Ba Na Hills has been confirmed.",
+      "date": "Feb 6, 2026"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "userName": "Tuan Tran",
+      "lastMessage": "See you at the airport!",
+      "time": "10:30 AM",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200"
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "title": "Da Nang Adventure",
+      "status": "Ongoing",
+      "date": "Feb 10, 2026"
+    }
+  ]
+}
